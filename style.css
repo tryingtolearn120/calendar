@@ -1,0 +1,183 @@
+
+#options { background-color: #white; 
+font: bold; 
+color: #003300; 
+font-size: 30px;
+  
+font-weight: 800;
+  
+padding: 10px 0;
+  
+width: 100%;
+  
+position: relative; 
+}
+
+body {
+  background-color: #003300;
+  color: #aaa;
+  font-family: 'Josefin Sans';
+  font-size: 30px;
+}
+
+.calendar {
+  width: 650px;
+  margin: 50px auto 0;
+}
+
+.calendar__month {
+  font-size: 60px;
+  font-weight: 800;
+  padding: 10px 0;
+  width: 100%;
+  position: relative;
+}
+
+.cal-month__previous,
+.cal-month__next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  
+  &:hover {
+    background-color: #42A5F5;
+    box-shadow: 0 5px 5px -5px rgba(0,0,0,0.75);
+    border-radius: 50%;
+    font-weight: 800;
+    color: #111;
+  }
+}
+
+.cal-month__next {
+  right: 0;
+}
+
+.cal-month__current {
+  text-align: center;
+  color: #e1e1e1;
+}
+
+.cal-head__day,
+.cal-body__day {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+.cal-body__week,
+.calendar__head {
+  display: block;
+  height: 80px;
+  width: 650px;
+}
+
+.calendar__head {
+  line-height: 50px;
+  position: relative;
+  
+  &:after {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #90CAF9;
+  }
+}
+
+.cal-body__day {
+  color: #777;
+  line-height: 80px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cal-day__month--current {
+  color: #e1e1e1;
+}
+
+.cal-day__day--today {
+  font-weight: 800;
+  color: #2196f3;
+}
+
+.cal-day__day--selected {
+  background-color: #2196f3;
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, .75);
+  border-radius: 50%;
+  color: #112;
+}
+  cursor: pointer;
+}
+
+.cal-day__month--current {
+  color: #e1e1e1;
+}
+
+
+.cal-day__day--today {
+  font-weight: 800;
+  color: white;
+}
+
+.cal-day__day--selected {
+  background-color: #2196f3;
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, .75);
+  border-radius: 50%;
+  color: #111;
+
+}
+#loginForm {
+	float: right;
+}
+#sale {
+  color: pink;
+}
+#pro {
+  color: red;
+}
+
+#art {
+  color: yellow;
+}
+
+#ware {
+  color: blue;
+}
+#screen {
+  color: orange;
+}
+
+
+
+
+#logout {
+    display: none;
+}
+
+
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: green;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px;
+  width: 150px;
+  margin: 5px;
+  position: absolute;
+  right: 0px;
+  font-family: 'Josefin Sans';
+  font-size: 28px;
+}
+
+
+}
